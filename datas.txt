@@ -1,0 +1,3 @@
+﻿Sex,width,height
+Man,30,177
+Girl,25,168
