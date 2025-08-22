@@ -1,4 +1,4 @@
-
+#![allow(non_snake_case)]
 use mai::A::data::*;
 use std::io::{self, stdin};
 
@@ -10,5 +10,4 @@ fn main() {
         let Results: Result<Vec<String>, io::Error> = read_csv(input);
         println!("{:?}", Results);
     }
-    
 }
